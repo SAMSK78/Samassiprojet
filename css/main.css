@@ -1,0 +1,40 @@
+@import url(./reset.css);
+
+:root{
+   --header-title: rgb(108, 92, 231);
+   --header-title-text: #fff;
+   --header-font-size: 4.5rem;
+
+}
+header h1{
+   line-height: 8.0rem;
+   text-align: center;
+   background-color: var(--header-title);
+   color: var(--header-title-text);
+   font-size: var(--header-font-size);
+
+}
+main{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+section{
+   max-width: 80rem;
+   background-color: #fafafafa;
+   box-shadow: 0 0 20rem rgba(64, 62, 62, 0.5);
+   border: solid .1rem transparent;
+   
+}
+section h2{
+   background-color: #222;
+   color: var(--header-title-text);
+   padding: 1rem;
+}
+section p{
+   padding: 1rem;
+}
+footer{
+   text-align: center;
+}

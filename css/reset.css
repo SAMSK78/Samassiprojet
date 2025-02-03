@@ -1,0 +1,107 @@
+
+/* Reset global */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base rem (1rem = 10px) */
+html {
+    font-size: 62.5%; /* 10px/16px = 62.5% */
+
+    scroll-behavior: smooth;
+}
+
+/* Corps du document */
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font: 1.6rem sans-serif; /* 16px de base */
+    min-height: 100svh;
+    line-height: 1.6;
+    text-rendering: optimizeSpeed;
+    letter-spacing: .1rem;
+}
+
+/* Titres */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+/* Éléments de texte */
+p,
+li,
+dt,
+dd,
+blockquote {
+    font-size: inherit;
+}
+
+/* Formulaires */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    
+}
+
+/* Liens */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Listes */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Media */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Accessibilité */
+
+
+/* Correction éléments inline */
+button,
+a {
+    display: inline-block;
+}
+
+/* Reset des citations */
+blockquote,
+q {
+    quotes: none;
+}
+
+/* Ligne horizontale */
+hr {
+    border: none;
+    height: 1px;
+    background-color: currentColor;
+}
