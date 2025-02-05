@@ -1,40 +1,88 @@
 @import url(./reset.css);
 
 :root{
-   --header-title: rgb(108, 92, 231);
-   --header-title-text: #fff;
-   --header-font-size: 4.5rem;
+    --header-title: rgb(108, 92, 231);
+    --header-title-text: #fff;
+    --header-font-size: 4.5rem;
 
 }
 header h1{
-   line-height: 8.0rem;
-   text-align: center;
-   background-color: var(--header-title);
-   color: var(--header-title-text);
-   font-size: var(--header-font-size);
-
+    line-height: 8.0rem;
+    text-align: center;
+    background-color: var(--header-title);
+    color: var(--header-title-text);
+    font-size: var(--header-font-size);
+    font-size: var(--header-font-size);
+    font-weight: 500;
+    text-shadow: .2rem .2rem 0 #000000,
+    -.2rem -.2rem 0 #ec0505,
+    -.2rem .2rem 0 #ee0000,
+    .2rem -.2rem 0 #2a0edf;
 }
 main{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 section{
-   max-width: 80rem;
-   background-color: #fafafafa;
-   box-shadow: 0 0 20rem rgba(64, 62, 62, 0.5);
-   border: solid .1rem transparent;
-   
+    max-width: 80rem;
+    background-color: #fafafafa;
+    box-shadow: 0 0 20rem rgba(64, 62, 62, 0.5);
+    border: solid .1rem transparent;
+
 }
 section h2{
-   background-color: #222;
-   color: var(--header-title-text);
-   padding: 1rem;
+    background-color: #222;
+    color: var(--header-title-text);
+    padding: 1rem;
 }
 section p{
-   padding: 1rem;
+    padding: 1rem;
+}
+.btn-default{
+    max-width: max-content;
+    line-height: 3.5rem;
+    padding: 0 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-size: border;
+    border: solid .1rem #ccc;
+    margin: 1rem;
+    border-radius: .4rem;
+    color: #222;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #1161ec;
+    color: #fff;
+    border: solid .1rem transparent;
+}
+.btn-alert{
+    background-color: #e811ec;
+    color: #fff;
+    border: solid .1rem transparent;
+}
+.btn-warning{
+    background-color: #efad14;
+    color: #222;
+    border: solid .1rem transparent;
+}
+figure{
+    max-width: 40rem;
+    width: 100%;
+
+}
+figure figcaption{
+    text-align: center;
+}
+figure img{
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+
 }
 footer{
-   text-align: center;
+    text-align: center;
 }
